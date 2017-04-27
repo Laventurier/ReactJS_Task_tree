@@ -6736,7 +6736,7 @@ var Task_entity = function (_React$Component) {
                 null,
                 this.props.value,
                 " ",
-                _react2.default.createElement("input", { type: "button", value: "del", onClick: this.remove }),
+                _react2.default.createElement("img", { src: "img/basket.svg", onClick: this.remove, width: "15", height: "15", alt: "remove" }),
                 " "
             );
         }

@@ -1,0 +1,64 @@
+ul {
+    background: #2C3E50;
+    padding: 3px;
+    height: 150px;
+    overflow-y: auto;
+    list-style: none;
+    padding-top: 0;
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    min-height: 100%;
+    background: url(../img/matt-jones-67740.jpg)no-repeat center;
+    background-size: cover;
+}
+
+ul li {
+    color: #4ECDC4;
+    text-transform: capitalize;
+    padding-right: 20px;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d35400;
+}
+
+input[type="text"],
+button {
+    border: 1px solid #d35400;
+}
+
+button {
+    margin-left: 10px;
+}
+
+ul li img:hover {
+    cursor: pointer;
+}
+
+ul li img {
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    right: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+}
+
+#app {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 10px;
+    width: 250px;
+    margin-top: 100px;
+}

@@ -13,7 +13,7 @@ class Task_entity extends React.Component{
     }
     
     render(){
-        return <li>{this.props.value} <input type="button" value="del" onClick={this.remove}  /> </li>;
+        return <li>{this.props.value} <img src="img/basket.svg" onClick={this.remove} width="15" height="15" alt="remove"/> </li>;
     }
 }
 
